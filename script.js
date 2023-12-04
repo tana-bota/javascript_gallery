@@ -9,7 +9,7 @@ const text = document.querySelector('#caption');
 //console.log(thumbs);
 // クリックで切り替え
  thumbs.forEach(function(item, index) {
-  item.onclick = function() {
+  item.onmouseover = function() {
    //console.log(this.dataset.image);
    main.src = this.dataset.image;
   }
